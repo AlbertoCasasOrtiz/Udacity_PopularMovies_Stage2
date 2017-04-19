@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.movies.popular.albert.popularmovies.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_error_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:text="@string/error_connection"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="sort_popular">Sort popular</string>
+    <string name="sort_top_rated">Sort top rated</string>
+    <string name="sort_favorites">Sort favorites</string>
+    <string name="error_connection">Failed to get results, try again please.</string>
+    <string name="error_detailActivity">Failed to open movie information, try again please.</string>
+    <string name="trailers_text">Trailers</string>
+
+    <string name="header_description">Header</string>
+    <string name="favorite_button">Favorite</string>
+    <string name="poster_description">Poster of the image</string>
+    <string name="reviews_text">Reviews</string>
+    <string name="poster_of_the_movie">Poster of the movie.</string>
+    <string name="trailer">Trailer</string>
+    <string name="error_trailers">Error retrieving trailers from web.</string>
+    <string name="error_reviews">Error retrieving reviews from web.</string>
+</resources>
